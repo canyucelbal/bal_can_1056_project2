@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+#container {
+	width: 1000px;
+	height: 1400px;
+	margin: 0 auto;
+	background-color: #fbfbf8;
+}
+
+#titleImage img {
+	float: left;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+
+h1 {
+	font-family: 'Cinzel', Times, serif;
+	font-size: 34px;
+	line-height: 45px;
+	letter-spacing: -1px;
+	text-align: center;
+	font-weight: bolder;
+}
+
+h2 {
+	font-family: 'Cinzel', Times, serif;
+	font-size: 28px;
+	line-height: 45px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+h3 {
+	font-family: 'Cinzel', Times, serif;
+	font-size: 22px;
+	line-height: 45px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+p {
+	line-height: 24px;
+	margin-bottom: 20px;
+	font-family: 'Exo', Helvetica, sans-serif;
+}
+
+p:first-line {
+	font-size: 16px;
+	color: #666
+}
+
+.try p:first-letter {
+	color: #000;
+	font-size: 50px;
+}
+
