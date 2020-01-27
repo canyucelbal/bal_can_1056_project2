@@ -5,13 +5,30 @@
 
 #container {
 	width: 1000px;
-	height: 1400px;
+	height: 3400px;
 	margin: 0 auto;
 	background-color: #fbfbf8;
 }
 
+.topLogo {
+	background-color: #1C1305;
+	width: 1000px;
+	height: 400px;
+}
+
+.topLogo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+}
+
 #titleImage img {
 	float: left;
+}
+
+#titleImage2 img {
+	float: right;
 }
 
 body {
@@ -21,12 +38,14 @@ body {
 }
 
 h1 {
+	margin-top: 30px;
 	font-family: 'Cinzel', Times, serif;
 	font-size: 34px;
 	line-height: 45px;
 	letter-spacing: -1px;
 	text-align: center;
 	font-weight: bolder;
+	margin-bottom: 20px;
 }
 
 h2 {
@@ -39,7 +58,7 @@ h2 {
 
 h3 {
 	font-family: 'Cinzel', Times, serif;
-	font-size: 22px;
+	font-size: 18px;
 	line-height: 45px;
 	letter-spacing: -1px;
 	font-weight: bold;
@@ -53,11 +72,73 @@ p {
 
 p:first-line {
 	font-size: 16px;
-	color: #666
+	color: #666;
 }
 
-.try p:first-letter {
+p:first-letter {
 	color: #000;
-	font-size: 50px;
+	font-size: 25px;
 }
 
+ul li {
+	color: #666;
+	font-size: 20px;
+}
+
+.listBeers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.listBeers p:first-letter {
+  font-size: 18px;
+  color: #333;
+}
+
+.eachBeer {
+  flex-direction: column;
+  display: flex;
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.eachBeer img {
+	margin-top: 10px;
+	height: 200px; 
+}
+
+.info a {
+	font-size: 25px;
+}
+
+.info p a {
+	font-size: 18px;
+}
+
+.footer {
+	background-color: #1C1305;
+	text-align: center;
+	height: 265px;
+}
+
+.footer p {
+	color: #FFEEDE;
+}
+
+.footer p:first-line {
+	color: #FFEEDE;
+}
+
+.footer p:first-letter {
+	color: #FFEEDE;
+}
+
+.footer h2 {
+	color: #FFEEDE;
+}
+
+.contact h2 {
+	padding-top: 20px;
+}
